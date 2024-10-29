@@ -1,10 +1,10 @@
-
+import Header from './Header';
 import './App.css';
 
 function App() {
   return (
     <>
-    <header></header>
+    <Header></Header>
     <nav></nav>
     <main></main>
     <footer></footer>

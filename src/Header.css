@@ -1,0 +1,12 @@
+.header {
+    display: flex;
+    align-items: center; /* Vertically centers items */
+    justify-content: space-between; /* Spreads items across the header */
+    padding: 0 20px; /* Optional: adds space on the sides */
+  }
+  
+  .header img {
+    height: 50px; /* Adjust to control the logo size */
+    margin-right: 20px; /* Adds space between the logo and navbar */
+  }
+  
