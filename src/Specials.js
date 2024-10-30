@@ -5,7 +5,7 @@ import "./specials.css";
 
 const Specials = () => {
     return(
-        <section className="specials-title">
+        <section className="specials">
             <div className="title-container">
                 <h1>Specials</h1>
                 <button>Online menu</button>
