@@ -12,7 +12,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 50px;
+    padding-left: 50px; /* Exactly 50px from left */
+    padding-right: 50px; /* Exactly 50px from right */
     width: 100%;
 }
 
@@ -28,23 +29,25 @@
     color: #495E57;
     background-color: #F4CE14;
     border: none;
-    border-radius: 20px; /* Makes button rounded */
+    border-radius: 20px; /* Rounded button */
     padding: 8px 16px;
     cursor: pointer;
     margin: 0;
 }
+
 .title-container button:hover {
     background-color: white;
-    color:#495E57;
-    border-width:2px;
-    border-color: #495E57;
-    border-style: solid;
-  }
+    color: #495E57;
+    border: 2px solid #495E57;
+}
 
 .specials-box {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
+    padding: 0 50px; /* 50px padding on sides to align with title-container */
+    width: 100%;
+    box-sizing: border-box; /* Ensures padding doesn't expand width */
 }
 
 .specials-box > div {
@@ -53,9 +56,10 @@
     width: 30%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start; /* Align items to the left */
     padding: 15px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
 }
 
 .specials-box img {
@@ -73,12 +77,12 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding: 0 10px;
 }
 
 .specials-box p {
     color: #666;
-    text-align: left;
+    text-align: left; /* Left-aligns text */
+    width: 100%;
     padding: 0 10px;
 }
 
@@ -87,6 +91,8 @@
     color: #333;
     background: none;
     border: none;
-    margin-top: 10px;
     cursor: pointer;
+    text-align: left; /* Aligns button text to the left */
+    padding: 0 10px;
+    margin-top: 10px;
 }
