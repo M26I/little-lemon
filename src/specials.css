@@ -2,7 +2,7 @@
     background-color: white;
     padding: 20px;
     max-width: 1200px;
-    margin: auto;
+    padding-left: 70px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -12,8 +12,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 50px; /* Exactly 50px from left */
-    padding-right: 50px; /* Exactly 50px from right */
+    padding-left: 70px; /* Exactly 50px from left */
+    padding-right: 70px; /* Exactly 50px from right */
     width: 100%;
 }
 
@@ -43,11 +43,12 @@
 
 .specials-box {
     display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    padding: 0 50px; /* 50px padding on sides to align with title-container */
+    gap: 50px;
+    flex-wrap: wrap;    
     width: 100%;
-    box-sizing: border-box; /* Ensures padding doesn't expand width */
+    box-sizing: border-box;
+    margin-top:50px;
+    margin-bottom:50px;
 }
 
 .specials-box > div {
@@ -64,13 +65,13 @@
 
 .specials-box img {
     width: 100%;
-    border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 10px 10px;
 }
 
 .specials-box h3 {
     font-size: 1.2rem;
     color: #333;
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
 .specials-box > div > div {
@@ -83,7 +84,8 @@
     color: #666;
     text-align: left; /* Left-aligns text */
     width: 100%;
-    padding: 0 10px;
+    padding: 0 ;
+    margin:0;
 }
 
 .specials-box button {
@@ -93,6 +95,7 @@
     border: none;
     cursor: pointer;
     text-align: left; /* Aligns button text to the left */
-    padding: 0 10px;
-    margin-top: 10px;
+    padding: 0;
+    margin:0;
+    padding-top: 20px;
 }

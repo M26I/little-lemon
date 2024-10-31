@@ -1,0 +1,63 @@
+/* about.css */
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #495E57;
+    color: white;
+    padding: 40px;
+    overflow: hidden;
+
+}
+
+.text {
+    width: 50%;
+    text-align: left;
+}
+
+.text h1 {
+    color: #F4CE14;
+    margin-bottom: 10px;
+}
+
+.text h3 {
+    margin-left:50px;
+    color: #ffffff;
+}
+
+.text p {
+    margin-top: 10px;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+
+.about > div:last-child {
+    width: 50%;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.about > div:last-child img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    position: absolute;
+}
+
+.about > div:last-child img:first-child {
+    top: 0;
+    right: 25%;
+    z-index: 1;
+    transform: translateY(-10%);
+}
+
+.about > div:last-child img:last-child {
+    top: 60px;
+    right: 0;
+    z-index: 2;
+    transform: translateY(20%);
+}
